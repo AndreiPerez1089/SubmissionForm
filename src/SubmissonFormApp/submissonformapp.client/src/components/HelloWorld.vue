@@ -30,23 +30,11 @@
     </div>
 </template>
 
-<script lang="ts">
+<script lang="js">
     import { defineComponent } from 'vue';
 
-    type Forecasts = {
-        date: string,
-        temperatureC: string,
-        temperatureF: string,
-        summary: string
-    }[];
-
-    interface Data {
-        loading: boolean,
-        post: null | Forecasts
-    }
-
     export default defineComponent({
-        data(): Data {
+        data() {
             return {
                 loading: false,
                 post: null

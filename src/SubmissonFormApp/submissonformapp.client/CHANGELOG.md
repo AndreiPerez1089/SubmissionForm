@@ -4,11 +4,9 @@ The following tools were used to generate this project:
 - create-vite
 
 The following steps were used to generate this project:
-- Create vue project with create-vite: `npm init --yes vue@latest submissonformapp.client -- --eslint  --typescript `.
-- Update `vite.config.ts` to set up proxying and certs.
-- Add `@type/node` for `vite.config.js` typing.
+- Create vue project with create-vite: `npm init --yes vue@latest submissonformapp.client -- --eslint `.
+- Update `vite.config.js` to set up proxying and certs.
 - Update `HelloWorld` component to fetch and display weather information.
-- Add `shims-vue.d.ts` for basic types.
 - Create project file (`submissonformapp.client.esproj`).
 - Create `launch.json` to enable debugging.
 - Add project to solution.

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "submissonformapp.client", "submissonformapp.client\submissonformapp.client.esproj", "{B92FDF6D-FB74-487A-B17A-9A761CBB67FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmissonFormApp.Server", "SubmissonFormApp.Server\SubmissonFormApp.Server.csproj", "{023B0D2D-473E-4C35-951D-F56720CB072C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmissonFormApp.Server", "SubmissonFormApp.Server\SubmissonFormApp.Server.csproj", "{D8074D9D-54C0-4EE5-967B-A47EB2A54543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,15 +19,15 @@ Global
 		{B92FDF6D-FB74-487A-B17A-9A761CBB67FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B92FDF6D-FB74-487A-B17A-9A761CBB67FB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B92FDF6D-FB74-487A-B17A-9A761CBB67FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{023B0D2D-473E-4C35-951D-F56720CB072C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{023B0D2D-473E-4C35-951D-F56720CB072C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{023B0D2D-473E-4C35-951D-F56720CB072C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{023B0D2D-473E-4C35-951D-F56720CB072C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8074D9D-54C0-4EE5-967B-A47EB2A54543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8074D9D-54C0-4EE5-967B-A47EB2A54543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8074D9D-54C0-4EE5-967B-A47EB2A54543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8074D9D-54C0-4EE5-967B-A47EB2A54543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {379081DE-24E4-4691-AFC3-932167CD60B1}
+		SolutionGuid = {8BF5C97C-6128-4B7F-9E26-53625B3BB21E}
 	EndGlobalSection
 EndGlobal
