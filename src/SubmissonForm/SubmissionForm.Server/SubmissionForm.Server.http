@@ -1,6 +1,6 @@
 @SubmissonFormApp.Server_HostAddress = http://localhost:5057
 
-GET {{SubmissonFormApp.Server_HostAddress}}/weatherforecast/
+GET {{SubmissionForm.Server_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
