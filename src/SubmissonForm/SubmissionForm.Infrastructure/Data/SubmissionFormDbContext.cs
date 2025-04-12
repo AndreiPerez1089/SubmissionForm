@@ -11,12 +11,12 @@ class SubmissionFormDbContext : DbContext
 
     }
 
-    public DbSet<Submission> Submissions { get; set; }
+    public DbSet<Core.Models.Entities.SubmissionForm> Submissions { get; set; }
     public DbSet<SubmissionField> SubmissionFields { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Submission>()
+        modelBuilder.Entity<SubmissionForm>()
             .HasKey(i=>i.id)
         modelBuilder.Entity<Enrollment>().ToTable("Enrollment");
         modelBuilder.Entity<Student>().ToTable("Student");

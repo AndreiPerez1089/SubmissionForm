@@ -2,17 +2,17 @@
 
 namespace SubmissionForm.Core.Models.Entities;
 
-public class SubmissionField : IAuditEntity, ISoftDeleteEntity
+public class SubmissionForm : IAuditEntity, ISoftDeleteEntity
 {
     public Guid Id { get; set; }
 
-    public Guid SubmissionFormId { get; set; }
+    public required string Name { get; set; }
 
-    public required SubmissionForm SubmissionForm { get; set; }
+    public Guid? TemplateSubmissionFormId { get; set; }
 
-    public required string Label { get; set; }
+    public SubmissionForm? TemplateSubmissionForm { get; set; }
 
-    public required string Value { get; set; }
+    public ICollection<SubmissionField> SubmissionFields { get; set; } = Array.Empty<SubmissionField>();
 
     public bool IsDeleted { get; set; }
 
